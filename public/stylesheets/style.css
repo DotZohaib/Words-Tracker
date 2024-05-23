@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    /* background-color: aqua; */
+}
+
+#nav ul{
+    background-color: rgba(86, 84, 84, 0.181);
+    color: white;
+    text-align: center;
+    height: 60px;
+    list-style: none;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#nav ul li a{
+    text-decoration: none;
+    
+}
+#nav ul li a:hover{
+    text-decoration: underline;
+
+}
